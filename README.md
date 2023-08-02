@@ -29,8 +29,9 @@ Zaposleni moze da:
 
  - Prikaze sve korisnike
  - Doda film
+ - Obrise film
  - Obrise rezervaciju (korisnik je zakasnio da dodje na blagajnu, pa ne vazi vise rezervacija, brise se)
- - Izmeni podatke o korisnku
+ - Izmeni rezervaciju
  - Prikaze sve filmove
 
      
