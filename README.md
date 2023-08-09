@@ -34,4 +34,10 @@ Zaposleni moze da:
  - Izmeni rezervaciju
  - Prikaze sve filmove
 
+## Struktura projekta
+- **Domain paket** : Ovde se nalaze klase, *Zaposleni*, *Korisnik*, *Zanr*, *Rezervacija*, *Film* . Predstavljaju tabele iz baze podataka. Svaka ima konstruktor, getere i setere, equals i hashCode metode, kao i toString. Putanja je src/main/java/Domain.
+
+- **Bioskop.sql** : Sadrzi bazu podataka u formatu SQL skripte.
+-  **database** : U ovom paketu je singletone klasa DBConnection, koja nam sluzi za konfiguraciju konekcije na bazu. Singltone je jer se vise poziva metoda getConnection.
+
      
